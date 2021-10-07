@@ -1,0 +1,88 @@
+.html {
+    font-size: 62.5%;
+}
+
+.bar {
+    background-color: #5080AC;
+    width: 100vw;
+}
+
+.compeition_bar_line {
+    width: 0.2rem;
+    height: 100%;
+    background-color: white;
+}
+
+.player_text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.player_score_text {
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 1.4rem;
+}
+
+.score_text {
+    margin-top: 0.8rem;
+    font-family: Arial, Helvetica, sans-serif;
+    color: white;
+    font-size: 3rem;
+}
+
+.comp_score_text {}
+
+.competition_bar {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: black;
+}
+
+.game_title {
+    margin-top: 0.5rem;
+    text-align: center;
+}
+
+.tool_bar {
+    padding-top: 3rem;
+    padding-bottom: 2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    background-color: #5080AC;
+}
+
+.tool_img {
+    width: 100%;
+    height: 100%;
+}
+
+.player_txt {
+    text-align: center;
+}
+
+.comp_txt {
+    text-align: center;
+}
+
+.stat_txt {
+    text-align: center;
+}
+
+@media screen and (min-width:1024px) {
+    .poke_img {
+        padding-left: 22rem;
+    }
+    .banner_image {
+        padding-left: 9.5rem;
+    }
+}
+
+@media screen and (min-width:992px) {
+    .poke_height {
+        float: right;
+    }
+}
